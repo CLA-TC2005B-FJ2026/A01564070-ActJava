@@ -1,10 +1,16 @@
 // Función para incrementar el contador
 let contador = 0;
+
 function incrementar() {
     contador++;
+
     document.getElementById("contador").innerText = contador;
 }
+function decremento() {
+    contador--;
 
+    document.getElementById("contador").innerText = contador;
+}
 // Función para reiniciar el contador
 function reiniciar() {
     contador = 0;
